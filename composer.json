@@ -1,0 +1,32 @@
+{
+  "name": "rubenhazelaar/flex",
+  "description": "An ultra simple PHP7 framework. Small and simple, just flex!",
+  "authors": [
+    {
+      "name": "Ruben Hazelaar",
+      "email": "ruben.hazelaar@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {
+      "Flex\\": "src/",
+      "ACME\\": "example/app/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Flex\\Test\\": "test/"
+    }
+  },
+  "require": {
+    "php": "^7.0",
+    "psr/http-message": "^1.0",
+    "zendframework/zend-diactoros": "^1.3",
+    "nikic/fast-route": "@stable"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^4.8",
+    "phpmd/phpmd" : "@stable"
+  }
+}

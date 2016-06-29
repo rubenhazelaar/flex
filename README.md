@@ -12,6 +12,12 @@ It also features a basic middleware implementation and template system. And more
 - Document Middleware & Loader classes
 - Test Middleware & Loader & Template classes
 
+## Install with composer
+
+```bash
+    composer require rubenhazelaar/flex
+```
+
 ## Docker
 
 Getting started with Flex (using Docker) is easy as 1, 2, 3. Just run:
